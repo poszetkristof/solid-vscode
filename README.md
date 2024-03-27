@@ -37,7 +37,7 @@ Chosen open source project: [VS Code](https://github.com/microsoft/vscode)
 |          | Instead of depending on `Dimension` (contains specific implementation), it should depend on `IDimension` interface.  |
 |          | Remove concrete implementation of `TypeHierarchyTree`, looks like it was just created to "mock" a type. |
 
-**YAGNI**: *chatActions.ts*, [L258](https://github.com/microsoft/vscode/blob/main/src/vs/workbench/contrib/chat/browser/actions/chatActions.ts#L258) - no need for `view` param
+**YAGNI**: in some functions there are unused params
 
 **DRY**: abstract class **Disposable** is implemented in the same way at multiple places (*media-preview/src/util*, *simple-browser/src*, *typescript-language-features/src/utils*)
 
